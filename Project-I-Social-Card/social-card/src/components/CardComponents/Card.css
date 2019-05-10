@@ -1,7 +1,7 @@
 /* All styles for your Card Components live here */
 .card-container {
-  border: 1px solid grey;
-  border-radius: 5px 5px 0 0;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
   display: block;
   margin-left: 62px;
   max-width: 500px;
@@ -19,17 +19,20 @@
 
 .card-content {
   color: black;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding-left: 1rem;
 }
 .card-content h1 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  margin: 1rem 0 0;
 }
 .card-content h2 {
   color: gray;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 500;
+  margin: 0.5rem;
 }
 .card-content p {
   font-size: 0.9rem;
+  margin: 0.5rem 0 0;
 }
