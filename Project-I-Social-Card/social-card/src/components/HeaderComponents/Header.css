@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.image-thumbnail {
+  background: url('https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png') center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  flex-shrink: 0;
+  height: 60px;
+  width: 60px;
+}
+.text-container {
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 2px;
+}
+.text-container h1 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.text-container h1 span {
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
