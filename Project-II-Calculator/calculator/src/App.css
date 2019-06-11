@@ -1,0 +1,29 @@
+.container {
+  background-color: #cfd8dc;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  background-color: #fdd835;
+  padding: 0.5rem;
+  border: 4px solid #212121;
+  border-radius: 1rem;
+}
+.keypad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px 80px 80px 80px 80px;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  grid-template-areas:
+    'clear clear clear div  '
+    'seven eight nine  mult '
+    'four  five  six   sub  '
+    'one   two   three add  '
+    'zero  zero  zero  equal';
+  align-content: stretch;
+}

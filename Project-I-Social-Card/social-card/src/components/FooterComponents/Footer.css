@@ -1,0 +1,19 @@
+.card-footer {
+  margin-left: 32px;
+  display: flex;
+}
+.card-footer .button {
+  color: gray;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 75px;
+}
+.card-footer .button:hover {
+  color: black;
+}
+.card-footer .button span {
+  margin-left: 0.85rem;
+}
